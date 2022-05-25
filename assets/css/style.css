@@ -1,0 +1,97 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem;
+}
+nav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+h1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    background-color: yellow;
+    height: 5vh;
+    align-items: center;
+}
+li{
+    font-style: oblique;
+    font-weight: 700;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+a{
+    color: black;
+    width: 25%;
+    scroll-behavior: smooth;
+}
+a:hover{
+    background-color: red;
+    border-radius: 25%;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+    padding: 0;
+}
+/*section isekai Shönen Mecha Sport*/
+.otherworld{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.newlife{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+}
+#top5{
+  width: 60%;
+}
+#top5Img{
+    width:100%;
+}
+.adjust{
+    width: auto;
+    height: 20vh;
+}
+span{
+    width: 50%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+@media  screen and (min:576px) {
+    #menu a:hover{
+        display: none;
+    }
+    header{
+        flex: none;
+    }
+}
